@@ -1,1 +1,2 @@
-# gameproject1
+# gameproject
+Игровой проект

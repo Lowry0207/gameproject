@@ -17,7 +17,7 @@
 @else
 	<p> Нет коментариев </p>
 @endif
-	<hr>
+	<hr> ^^
 
 	@if(Auth::user())
 	<form id="comments" action="" method="POST">
