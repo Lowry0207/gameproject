@@ -6,7 +6,6 @@
 	<h3 style="display:inline-block">Коментарии</h3>
 	<hr>
 
-@if($news['comments'])
 	@foreach($news['comments'] as $comment)	
 	<div class="news-comment">
 		<a href="/profile/"<span class="name">{{$comment['user_name']}}</span></a>
@@ -14,10 +13,8 @@
 		<span class="text">{{$comment['comment']}}</span> 
 	</div>
 	@endforeach	
-@else
-	<p> Нет коментариев </p>
-@endif
-	<hr> ^^
+
+	<hr> 
 
 	@if(Auth::user())
 	<form id="comments" action="" method="POST">
