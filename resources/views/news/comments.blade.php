@@ -9,7 +9,7 @@
 @if($news['comments'])
 	@foreach($news['comments'] as $comment)	
 	<div class="news-comment">
-		<a href="/profile/"<span class="name">{{$comment['user_name']}}</span></a>
+1		<a href="/profile/"<span class="name">{{$comment['user_name']}}</span></a>
 		
 		<span class="text">{{$comment['comment']}}</span> 
 	</div>
