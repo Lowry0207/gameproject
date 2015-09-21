@@ -14,7 +14,7 @@
 		
 		<span class="text">{{$comment['comment']}}</span> 
 	</div>
-	@endforeach	
+	@endforeach	 
 @else
 	<p> Нет коментариев </p>
 @endif
