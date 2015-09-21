@@ -14,7 +14,7 @@
 	</div>
 	@endforeach	
 
-	<hr> 
+	<hr>
 
 	@if(Auth::user())
 	<form id="comments" action="" method="POST">
