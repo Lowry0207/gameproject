@@ -1,0 +1,93 @@
+
+a:focus{
+    outline: none !important;
+}
+
+.error{
+    border: 1px solid red;
+    box-shadow: 0px 0px 11px;
+}
+
+
+.msg-auth{
+    border-bottom: 1px solid #F78888;
+    padding: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #26313E;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+body{
+	background-color: #715454;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#207ce5+0,499bea+100 */
+background: #207ce5; /* Old browsers */
+background: -moz-linear-gradient(top,  #207ce5 0%, #499bea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#207ce5), color-stop(100%,#499bea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #207ce5 0%,#499bea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #207ce5 0%,#499bea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #207ce5 0%,#499bea 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #207ce5 0%,#499bea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#499bea',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66a9e8+0,207ce5+100 */
+background: #66a9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #66a9e8 0%, #207ce5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66a9e8), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #66a9e8 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #66a9e8 0%,#207ce5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #66a9e8 0%,#207ce5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #66a9e8 0%,#207ce5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66a9e8', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.news-list,.news-detail{
+    background-color: #FFFFFF;
+    border: 1px solid #3E7AB7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color: #0FA714;
+}
+
+.news-detail{
+    border-left:0;
+    border-top-width: 5px;
+    border-top-color: #C50213;
+}
+.news-list:hover{
+	border-left-color:#0D9611;
+}
+.news-title{
+	font-size: 21px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.news-descr{
+	font-size: 14px;
+	min-height: 102px;
+	font-family: sans-serif;
+}
+.img-news{
+	margin-top: 6px;
+}
+
+.news-view-button{
+    font-family: arial;
+    font-size: 12px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 33px;
+}
+h1{
+	font-family: 'Neucha', cursive;
+	color:white;
+}
+
+.btn-comment{
+  
+    background-color: #7294B2;
+    color: white;
+}
