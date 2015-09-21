@@ -25,7 +25,7 @@
 		   <input type="hidden" name="_token" value="{{ csrf_token() }}">
 		   <input type="submit" class="btn btn-comment " value="Отправить">
 		  </div>
-	</form>
+	</form> 
 	@else
 	<span class="msg msg-auth">Чтобы оставить коментарий, <a href="/auth/login">авторизируйтесь</a>
 	@endif
